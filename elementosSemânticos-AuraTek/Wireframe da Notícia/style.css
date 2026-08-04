@@ -1,0 +1,213 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+/* Área principal */
+main {
+    width: 100%;
+    padding: 40px 20px;
+}
+
+
+/* Caixa da notícia */
+.noticia {
+
+    background-color: white;
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 45px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+
+}
+
+
+/* Título principal */
+.noticia h1 {
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    color: #0f4c81;
+
+    margin-bottom: 20px;
+
+    font-weight: 700;
+
+}
+
+
+/* Data e autor */
+.noticia > p:first-of-type {
+
+    color: #777;
+
+    font-size: 15px;
+
+    border-bottom: 1px solid #ddd;
+
+    padding-bottom: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* Subtítulos */
+.noticia h2 {
+
+    font-size: 26px;
+
+    color: #222;
+
+    margin-top: 35px;
+
+    margin-bottom: 15px;
+
+    border-left: 5px solid #0f4c81;
+
+    padding-left: 15px;
+
+}
+
+
+/* Texto da notícia */
+.noticia p {
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* Destaques */
+.noticia strong {
+
+    color: #0f4c81;
+
+}
+
+
+.noticia em {
+
+    color: #555;
+
+}
+
+
+/* Lista */
+.noticia ul {
+
+    margin: 20px 0 30px 30px;
+
+}
+
+
+.noticia li {
+
+    font-size: 18px;
+
+    margin-bottom: 12px;
+
+    line-height: 1.5;
+
+}
+
+
+/* Link final */
+.noticia a {
+
+    display: inline-block;
+
+    background-color: #0f4c81;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+
+.noticia a:hover {
+
+    background-color: #1565c0;
+
+}
+
+
+/* Responsividade */
+@media(max-width: 700px) {
+
+
+    .noticia {
+
+        padding: 25px;
+
+    }
+
+
+    .noticia h1 {
+
+        font-size: 30px;
+
+    }
+
+
+    .noticia p {
+
+        font-size: 16px;
+
+    }
+
+}
+
+footer {
+
+    max-width: 900px;
+
+    margin: 30px auto;
+
+    background-color: white;
+
+    padding: 20px;
+
+    border-top: 3px solid #0f4c81;
+
+    text-align: center;
+
+    color: #666;
+
+    border-radius: 8px;
+
+}
