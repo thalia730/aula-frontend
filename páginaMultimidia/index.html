@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silva & Associados – Advocacia Criminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>Silva & Associados | Advocacia Criminalista</h1>
+        <p>Defesa técnica especializada e atenta aos seus direitos.</p>
+    </header>
+
+    <main>
+        
+        <section>
+            <h2>Nossa Estrutura e Equipe</h2>
+            <figure>
+                <img src="escritorio.png" alt="Escritório de advocacia criminal com mesa de reunião, livros jurídicos e balança da justiça ao fundo.">
+                <figcaption>Nosso espaço para atendimento presencial e consultoria jurídica.</figcaption>
+            </figure>
+        </section>
+
+       
+        <section>
+            <h2>Apresentação Institucional</h2>
+            <video controls width="600">
+                <source src="advocaciaCriminal.mp4" type="video/mp4">
+                Seu navegador não suporta a exibição de vídeos em HTML5.
+            </video>
+        </section>
+
+       
+        <section>
+            <h2>Nossa Localização</h2>
+            <iframe 
+                Src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197581525381!2d-46.658607!3d-23.561386!2m2!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzQwLjkiUyA0NsKwMzknMzEuMCJX!5e0!3m2!1spt-BR!2sbr!4v1600000000000!5m2!1spt-BR!2sbr 
+                Width="600" 
+                Height="300" 
+                Style="border:0;" 
+                Allowfullscreen="" 
+                Loading="lazy"
+                Title="Mapa de localização do escritório de advocacia">
+            </iframe>
+        </section>
+
+       
+        <section>
+            <h2>Solicite uma Consulta Jurídica</h2>
+            <form action="#" method="POST">
+                
+                
+                <div>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                </div>
+                <br>
+
+                
+                <div>
+                    <label for="email">E-mail de Contato:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+                </div>
+                <br>
+
+               
+                <div>
+                    <label for="telefone">Telefone / WhatsApp:</label><br>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+                </div>
+                <br>
+
+               
+                <div>
+                    <label for="assunto">Área de Atuação / Assunto:</label><br>
+                    <select id="assunto" name="assunto">
+                        <option value="">-- Selecione uma opção --</option>
+                        <option value="defesa-investigacao">Defesa em Investigação / Inquérito Policial</option>
+                        <option value="habeas-corpus">Pedido de Liberdade / Habeas Corpus</option>
+                        <option value="consultoria">Consultoria Jurídica Criminal Preventiva</option>
+                        <option value="outros">Outros Assuntos</option>
+                    </select>
+                </div>
+                <br>
+
+               
+                <fieldset>
+                    <legend>Como prefere que entremos em contato?</legend>
+                    <input type="radio" id="contato-whatsapp" name="preferencia_contato" value="whatsapp" checked>
+                    <label for="contato-whatsapp">WhatsApp</label><br>
+
+                    <input type="radio" id="contato-ligacao" name="preferencia_contato" value="ligacao">
+                    <label for="contato-ligacao">Ligação Telefônica</label><br>
+
+                    <input type="radio" id="contato-email" name="preferencia_contato" value="email">
+                    <label for="contato-email">E-mail</label>
+                </fieldset>
+                <br>
+
+                
+                <fieldset>
+                    <legend>Situação da Solicitação:</legend>
+                    <input type="checkbox" id="urgente" name="status_caso[]" value="urgente">
+                    <label for="urgente">Caso de urgência / Prisão em flagrante</label><br>
+
+                    <input type="checkbox" id="atendimento-presencial" name="status_caso[]" value="presencial">
+                    <label for="atendimento-presencial">Desejo agendar atendimento presencial</label>
+                </fieldset>
+                <br>
+
+              
+                <div>
+                    <label for="mensagem">Resumo do Caso ou Dúvida:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Descreva brevemente a sua situação..."></textarea>
+                </div>
+                <br>
+
+                <button type="submit">Enviar Solicitação</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Silva & Associados – Todos os direitos reservados.</p>
+        <p>Atendimento de Emergência 24h: (11) 91234-5678</p>
+    </footer>
+
+</body>
+</html>

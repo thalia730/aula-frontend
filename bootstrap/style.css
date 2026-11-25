@@ -1,0 +1,171 @@
+/* =========================================
+   CONFIGURAÇÕES GERAIS
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1c1f;
+    color: #fa3f10;
+    text-align: center;
+}
+
+
+/* =========================================
+   CABEÇALHO / MENU
+========================================= */
+
+header {
+    background-color: #7fbb89;
+    border-bottom: 1px solid #a073db;
+    padding: 15px 0;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0bf3f3;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: #0ca1e6;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: #eb08f3;
+}
+
+
+/* =========================================
+   CONTEÚDO PRINCIPAL
+========================================= */
+
+main {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+/* =========================================
+   INÍCIO
+========================================= */
+
+.inicio {
+    margin-bottom: 35px;
+}
+
+.inicio h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.inicio p {
+    color: #2711e6;
+    font-size: 17px;
+}
+
+
+/* =========================================
+   TÍTULOS DAS SEÇÕES
+========================================= */
+
+section {
+    margin-bottom: 45px;
+}
+
+section h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   CARDS
+========================================= */
+
+.card {
+    border: none;
+    border-radius: 14px;
+    background-color: #f5dd08;
+    box-shadow: 0 3px 12px rgb(233, 20, 20);
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(233, 34, 34, 0.781);
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.card p {
+    color: #5510a3;
+}
+
+
+/* =========================================
+   RESUMO
+========================================= */
+
+.resumo .card {
+    height: 100%;
+    text-align: center;
+}
+
+.resumo .card h3 {
+    color: #fc0afc;
+    font-size: 18px;
+}
+
+.resumo .card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0feb84;
+}
+
+
+/* =========================================
+   MATÉRIAS
+========================================= */
+
+.materia {
+    height: 100%;
+    margin-bottom: 25px;
+}
+
+.materia h3 {
+    color: #e61186;
+}

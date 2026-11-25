@@ -1,0 +1,11 @@
+div {
+    background-color: rgb(142, 226, 142);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#sobre {
+    text-decoration: none;
+}

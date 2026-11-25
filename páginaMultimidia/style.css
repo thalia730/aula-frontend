@@ -1,0 +1,11 @@
+section {
+    color: #fa1313;
+    front-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: 58px;
+    font-weight: 300; 
+    text-align: right
+}

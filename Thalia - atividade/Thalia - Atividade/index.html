@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <style>
+        h2 {
+            color: blue;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<body>
+
+    <header>
+        <div>
+            <h1 style="color: blue;">Thalia
+                <a href="index.html" class="logo">
+                <img src="img\logo-branco-80-anos.png" alt="logo do senac" width="500" height="300">
+            </h1>
+            <p>coloquei as imagens e videos disponibilizados, utilizei o css em linha no h1 mudando a cor do titulo para
+                azul,
+                depois utilizei o css interno para mudar a cor do h2 azul e os paragrafos em um tamanho de 30px, e
+                utilizei o css externo, utilizei o id inicio,servicos e sobre onde tem imagem ou o video e coloquei um background-color azul, utilizei a classe
+                .card, mudei a borda para azul, coloquei em negrito,
+                a fonte Times New Roman e mudei a altura e largura (height: 100px;
+                width: 150px;), utilizei as tag h1 para alinhar e mudar o tamanho da fonte,body com margem 0 e cor purple para o fundo inteiro, paragrafo com cor (aqua), e alinhei no centro
+            e utilizei a classe logo para controlar om tamanho da logo e para a caixa da logo.  </p>
+            
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+            <a href="#atividade">Atividade</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bem-vindo ao nosso site</h2>
+            <p>Apresente aqui a principal mensagem da empresa e explique brevemente sua proposta.</p>
+            <a href="#contato">Entre em contato</a>
+            <video controls height="600">
+                <source src="video/Rede social mais popular de 2004 até 2025.mp4" type="video/mp4">
+                Seu navegador não suporta a exibição de vídeos em HTML5.
+            </video>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre nós</h2>
+
+            Espaço destinado à apresentação da empresa, profissional ou negócio.
+        </section>
+
+        <section id="servicos">
+            <h2>Nossos serviços</h2>
+
+            <figure>
+                <img src="img/senac.webp" alt="Logo do Senac">
+                <figcaption>imagem do senac</figcaption>
+            </figure>
+            <div class="card">
+                <h3>Serviço 1</h3>
+                <p>Descrição do primeiro serviço.</p>
+            </div>
+
+            <div class="card">
+                <h3>Serviço 2</h3>
+                <p>Descrição do segundo serviço.</p>
+            </div>
+
+            <div class="card">
+                <h3>Serviço 3</h3>
+                <p>Descrição do terceiro serviço.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <figure>
+                <img src="img/senac 2.webp" alt="senac empresarial">
+                <figcaption>imagem senac empresarial</figcaption>
+            </figure>
+
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="atividade">
+            <h2>Atividade — Customização do Wireframe com CSS</h2>
+
+            <p>
+                Utilize o arquivo HTML disponibilizado pelo professor e desenvolva
+                sua própria estilização utilizando CSS.
+            </p>
+
+            <p>
+                O objetivo é transformar a estrutura HTML em uma página visualmente
+                organizada, utilizando as propriedades CSS trabalhadas em aula.
+            </p>
+
+            <h3>Propriedades obrigatórias</h3>
+
+            <ul>
+                <li><strong>border</strong> — aplicação de bordas;</li>
+                <li><strong>width</strong> — definição de largura;</li>
+                <li><strong>height</strong> — definição de altura;</li>
+                <li><strong>text-align</strong> — alinhamento dos textos;</li>
+                <li><strong>color</strong> — definição das cores dos textos;</li>
+                <li><strong>font-size</strong> — definição do tamanho das fontes;</li>
+                <li><strong>font-weight</strong> — definição do peso das fontes;</li>
+                <li><strong>font-family</strong> — definição da família tipográfica;</li>
+                <li><strong>background-color</strong> — definição das cores de fundo.</li>
+            </ul>
+
+            <h3>Orientações</h3>
+
+            <p>
+                As propriedades deverão ser aplicadas de maneira coerente com a
+                estrutura da página e utilizadas para personalizar os diferentes
+                elementos do projeto.
+            </p>
+
+            <p>
+                Utilize sua criatividade na escolha de cores, fontes, tamanhos,
+                bordas e alinhamentos, mantendo a organização e a legibilidade
+                da página.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Nome da Empresa - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
